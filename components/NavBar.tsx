@@ -13,10 +13,10 @@ function NavBar() {
           height={40}
           width={30}
         />
-        <span className=" text-4xl font-semibold text-green-500">Safe-Air</span>
+        <span className="text-4xl font-semibold text-green-500">Safe-Air</span>
       </div>
 
-      <div className="flex items-center gap-12 text-2xl">
+      <div className="flex items-center gap-8 text-2xl">
         <a
           href="#"
           className=" hover:text-green-800 text-green-600 transition-all"
@@ -44,7 +44,7 @@ function NavBar() {
 
         <a
           href="#"
-          className="hover:text-slate-50 text-green-600 transition-all"
+          className="hover:text-slate-50 text-green-600 transition-all rounded-full"
         >
           Demo
         </a>
